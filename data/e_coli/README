@@ -1,0 +1,11 @@
+Data: /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/
+
+Short-reads assemblies:		/home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/short_read_assembly/
+	    			file <SAMPLE_ID>_assembly/assembly.[gfa,fasta]
+Short-reads contigs labels: 	/home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/e_coli_labels/
+	    	    		file <SAMPLE_ID>_minimap_alignment_labelled_ambiguity_cutoff_1.csv
+Samples IDs: 	    		ll /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/short_read_assembly/
+				| awk '{print $9}' | sed 's/_assembly\///' > e_coli_id_all.txt
+				cp e_coli_id_all.txt e_coli_id.txt
+
+Updating sample IDs in e_coli_id.txt to remove the ones with unfinished assemblies: 037, 038, 041, 047, 054, 063, 068
