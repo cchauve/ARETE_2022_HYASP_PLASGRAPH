@@ -9,3 +9,12 @@ Samples IDs: 	    		ll /home/chauvec/projects/ctb-chauvec/jsiele/results/e_faeci
 				cp e_faecium_id_all.txt e_faecium_id.txt
 
 Removing samples with unfinished assembly: E7070 E7246
+
+GROUND TRUTH
+The ground truth describes which short-read contigs originate from plasmids.
+It is built from hybrid long-reads and short-reads Unicycler assemblies available at
+   /home/chauvec/projects/ctb-chauvec/jsiele/results/e_faecium/hybrid_assembly
+Each hybrid contig has been labelled as chromosome, plasmid, unambiguous or unlabelled (too short).
+Each line of a ground truth file encodes the information on mapping short-reads contigs on hybrid contigs
+in the following format:
+short_read_contig_id,short_read_contig_length,mapped_against_hybrid_contig_id,hybrid_contig_length,number_of_residue_matches,is_circular,label

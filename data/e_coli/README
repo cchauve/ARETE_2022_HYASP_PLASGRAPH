@@ -1,5 +1,6 @@
 Data: /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/
 
+DATA:
 Short-reads assemblies:		/home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/short_read_assembly/
 	    			file <SAMPLE_ID>_assembly/assembly.[gfa,fasta]
 Short-reads contigs labels: 	/home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/e_coli_labels/
@@ -9,3 +10,12 @@ Samples IDs: 	    		ll /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/
 				cp e_coli_id_all.txt e_coli_id.txt
 
 Updating sample IDs in e_coli_id.txt to remove the ones with unfinished assemblies: 037, 038, 041, 047, 054, 063, 068
+
+GROUND TRUTH
+The ground truth describes which short-read contigs originate from plasmids.
+It is built from hybrid long-reads and short-reads Unicycler assemblies available at
+   /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/hybrid_assembly
+Each hybrid contig has been labelled as chromosome, plasmid, unambiguous or unlabelled (too short).
+Each line of a ground truth file encodes the information on mapping short-reads contigs on hybrid contigs
+in the following format:
+short_read_contig_id,short_read_contig_length,mapped_against_hybrid_contig_id,hybrid_contig_length,number_of_residue_matches,is_circular,label
