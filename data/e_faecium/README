@@ -9,6 +9,7 @@ Samples IDs: 	    		ll /home/chauvec/projects/ctb-chauvec/jsiele/results/e_faeci
 				cp e_faecium_id_all.txt e_faecium_id.txt
 
 Removing samples with unfinished assembly: E7070 E7246
+Removing sample with no ground truth E7519
 
 GROUND TRUTH
 The ground truth describes which short-read contigs originate from plasmids.
