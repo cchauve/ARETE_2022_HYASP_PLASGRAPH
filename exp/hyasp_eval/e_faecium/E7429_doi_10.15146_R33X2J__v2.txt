@@ -15,7 +15,7 @@ No. of predicted plasmids: 18
 plasmid_2: 12697 nt
 plasmid_14: 14400 nt
 plasmid_0: 58745 nt
-plasmid_17: 4372 nt
+plasmid_17: 0 nt ( + 4372 nt in unlabelled contigs )
 plasmid_6: 55407 nt
 plasmid_7: 13507 nt
 plasmid_4: 83873 nt
@@ -28,7 +28,7 @@ plasmid_44: 3202 nt
 plasmid_15: 2393 nt
 plasmid_40: 18127 nt
 plasmid_10: 12757 nt
-plasmid_19: 2056 nt
+plasmid_19: 0 nt ( + 2056 nt in unlabelled contigs )
 plasmid_11: 13642 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
@@ -99,6 +99,6 @@ plasmid_0 <-> 3
 plasmid_44 <-> 9
 
 > summary scores
-precision: 0.8008014156775308
+precision: 0.8144864347525556
 recall: 0.8135256682223165
-f1_score: 0.8071133951722235
+f1_score: 0.8140057679906721

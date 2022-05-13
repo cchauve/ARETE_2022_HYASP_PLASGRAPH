@@ -10,21 +10,21 @@ No. of reference plasmids: 5
 9: 1979 nt
 
 No. of predicted plasmids: 17
-plasmid_2: 10085 nt
-plasmid_3: 156740 nt
-plasmid_0: 22162 nt
-plasmid_1: 10118 nt
-plasmid_6: 16789 nt
-plasmid_7: 54395 nt
+plasmid_2: 8619 nt ( + 1466 nt in unlabelled contigs )
+plasmid_3: 156183 nt ( + 557 nt in unlabelled contigs )
+plasmid_0: 5120 nt ( + 17042 nt in unlabelled contigs )
+plasmid_1: 9561 nt ( + 557 nt in unlabelled contigs )
+plasmid_6: 15323 nt ( + 1466 nt in unlabelled contigs )
+plasmid_7: 53838 nt ( + 557 nt in unlabelled contigs )
 plasmid_4: 4676 nt
 plasmid_5: 4207 nt
-plasmid_8: 3308 nt
+plasmid_8: 2751 nt ( + 557 nt in unlabelled contigs )
 plasmid_13: 10804 nt
 plasmid_16: 5254 nt
-plasmid_9: 4223 nt
-plasmid_17: 20881 nt
+plasmid_9: 3666 nt ( + 557 nt in unlabelled contigs )
+plasmid_17: 20324 nt ( + 557 nt in unlabelled contigs )
 plasmid_22: 6285 nt
-plasmid_15: 18920 nt
+plasmid_15: 0 nt ( + 18920 nt in unlabelled contigs )
 plasmid_21: 14203 nt
 plasmid_23: 45574 nt
 
@@ -89,6 +89,6 @@ plasmid_16 <-> 5
 plasmid_21 <-> 4
 
 > summary scores
-precision: 0.057911429578292026
+precision: 0.06458726814196972
 recall: 0.9034474859695338
-f1_score: 0.10884579029798744
+f1_score: 0.12055601264452431

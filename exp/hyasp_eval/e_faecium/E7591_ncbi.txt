@@ -39,7 +39,7 @@ plasmid_4: 3600 nt
 plasmid_5: 5681 nt
 plasmid_8: 4290 nt
 plasmid_9: 2136 nt
-plasmid_30: 3221 nt
+plasmid_30: 0 nt ( + 3221 nt in unlabelled contigs )
 
 > predicted plasmid covers <proportion> of reference plasmid
 	3	2	5	4	7
@@ -129,6 +129,6 @@ plasmid_17 <-> 4
 plasmid_32 <-> 7
 
 > summary scores
-precision: 0.9825395288910548
+precision: 0.9932179370381617
 recall: 0.8288071232979717
-f1_score: 0.8991495465350141
+f1_score: 0.903594708025235

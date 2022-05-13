@@ -104,6 +104,7 @@ plasmid_66	0.8932806324110671
 8	0.7285251215559158
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+none
 
 > summary scores
 precision: 0.43727667222399585

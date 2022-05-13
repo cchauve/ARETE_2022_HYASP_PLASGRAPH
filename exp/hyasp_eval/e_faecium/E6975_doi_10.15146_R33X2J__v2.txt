@@ -131,6 +131,7 @@ plasmid_58	1.0
 6	0.18320926385442515
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+none
 
 > summary scores
 precision: 0.8167511655407701

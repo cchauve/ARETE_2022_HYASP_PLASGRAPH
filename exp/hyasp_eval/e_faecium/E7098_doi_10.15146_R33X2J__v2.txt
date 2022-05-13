@@ -11,27 +11,27 @@ No. of reference plasmids: 7
 9: 1979 nt
 
 No. of predicted plasmids: 24
-plasmid_15: 4325 nt
-plasmid_30: 4648 nt
+plasmid_15: 853 nt ( + 3472 nt in unlabelled contigs )
+plasmid_30: 0 nt ( + 4648 nt in unlabelled contigs )
 plasmid_17: 4064 nt
-plasmid_10: 16042 nt
-plasmid_11: 7736 nt
-plasmid_12: 6313 nt
+plasmid_10: 0 nt ( + 16042 nt in unlabelled contigs )
+plasmid_11: 0 nt ( + 7736 nt in unlabelled contigs )
+plasmid_12: 0 nt ( + 6313 nt in unlabelled contigs )
 plasmid_13: 25888 nt
 plasmid_18: 31708 nt
 plasmid_19: 13797 nt
-plasmid_25: 6944 nt
+plasmid_25: 0 nt ( + 6944 nt in unlabelled contigs )
 plasmid_24: 6869 nt
-plasmid_27: 9934 nt
+plasmid_27: 853 nt ( + 9081 nt in unlabelled contigs )
 plasmid_29: 5607 nt
 plasmid_28: 3213 nt
 plasmid_2: 2930 nt
 plasmid_0: 1491 nt
-plasmid_1: 54459 nt
-plasmid_6: 55100 nt
-plasmid_7: 21632 nt
-plasmid_4: 49262 nt
-plasmid_5: 10573 nt
+plasmid_1: 7232 nt ( + 47227 nt in unlabelled contigs )
+plasmid_6: 54280 nt ( + 820 nt in unlabelled contigs )
+plasmid_7: 21175 nt ( + 457 nt in unlabelled contigs )
+plasmid_4: 46380 nt ( + 2882 nt in unlabelled contigs )
+plasmid_5: 6514 nt ( + 4059 nt in unlabelled contigs )
 plasmid_8: 45166 nt
 plasmid_50: 1453 nt
 plasmid_52: 1503 nt
@@ -65,17 +65,17 @@ plasmid_52	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 
 > reference plasmid covers <proportion> of predicted plasmid
 	plasmid_15	plasmid_30	plasmid_17	plasmid_10	plasmid_11	plasmid_12	plasmid_13	plasmid_18	plasmid_19	plasmid_25	plasmid_24	plasmid_27	plasmid_29	plasmid_28	plasmid_2	plasmid_0	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_8	plasmid_50	plasmid_52
-2	0.0	0.0	0.0	0.0	0.0	0.0	0.8851977750309024	0.384697868045919	0.0	0.0	1.0	0.0	1.0	0.0	1.0	1.0	0.05896178776694394	0.7811978221415607	0.9788738905325444	0.04070074296618083	0.6160976071124562	0.0	0.0	0.0
+2	0.0	0.0	0.0	0.0	0.0	0.0	0.8851977750309024	0.384697868045919	0.0	0.0	1.0	0.0	1.0	0.0	1.0	1.0	0.4439988938053097	0.7929992630803242	1.0	0.04322984044846917	1.0	0.0	0.0	0.0
 5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.1937519372979675	0.0	0.0
-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.16346032546991296	0.37566137566137564	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.3718890828630588	0.0	0.6922906611167693	0.0	0.0
+4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.16346032546991296	0.37566137566137564	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.394997843898232	0.0	0.6922906611167693	0.0	0.0
 7	0.0	0.0	0.9645669291338582	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 9	0.0	0.0	0.03543307086614173	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 8	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-ambiguous	0.19722543352601157	0.0	0.0	0.0	0.0	0.0	0.05662855377008653	0.04736974895925319	0.06820323258679423	0.0	0.0	0.08586672035433864	0.0	0.0	0.0	0.0	0.07383536238270993	0.09749546279491833	0.0	0.0636799155535707	0.0	0.11395740158526325	0.0	0.0
+ambiguous	1.0	0.0	0.0	0.0	0.0	0.0	0.05662855377008653	0.04736974895925319	0.06820323258679423	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.5560011061946902	0.09896831245394253	0.0	0.06763691246226822	0.0	0.11395740158526325	0.0	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_15	0.19722543352601157
+plasmid_15	1.0
 plasmid_30	0.0
 plasmid_17	1.0
 plasmid_10	0.0
@@ -86,16 +86,16 @@ plasmid_18	0.5955279424750851
 plasmid_19	0.44386460824816987
 plasmid_25	0.0
 plasmid_24	1.0
-plasmid_27	0.08586672035433864
+plasmid_27	1.0
 plasmid_29	1.0
 plasmid_28	1.0
 plasmid_2	1.0
 plasmid_0	1.0
-plasmid_1	0.13279715014965388
-plasmid_6	0.878693284936479
-plasmid_7	0.9788738905325444
-plasmid_4	0.4762697413828103
-plasmid_5	0.6160976071124562
+plasmid_1	1.0
+plasmid_6	0.8919675755342668
+plasmid_7	1.0
+plasmid_4	0.5058645968089694
+plasmid_5	1.0
 plasmid_8	1.0
 plasmid_50	0.0
 plasmid_52	0.0
@@ -113,6 +113,6 @@ plasmid_52	0.0
 plasmid_17 <-> 7
 
 > summary scores
-precision: 0.5816713894797738
+precision: 0.8087309948180628
 recall: 0.6563656610258952
-f1_score: 0.6167652670811478
+f1_score: 0.7246255759147997

@@ -10,8 +10,8 @@ plasmid_3: 97938 nt
 plasmid_0: 11118 nt
 plasmid_1: 11136 nt
 plasmid_7: 26852 nt
-plasmid_4: 6647 nt
-plasmid_5: 4671 nt
+plasmid_4: 0 nt ( + 6647 nt in unlabelled contigs )
+plasmid_5: 0 nt ( + 4671 nt in unlabelled contigs )
 
 > predicted plasmid covers <proportion> of reference plasmid
 	3	2
@@ -44,6 +44,6 @@ plasmid_5	0.0
 plasmid_3 <-> 3
 
 > summary scores
-precision: 0.6184438185928443
+precision: 0.6660455373901689
 recall: 0.45651717917523177
-f1_score: 0.5252845975408628
+f1_score: 0.5417269350650069

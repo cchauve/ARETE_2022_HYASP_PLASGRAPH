@@ -35,6 +35,7 @@ plasmid_4	1.0
 2	0.7684738193788666
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+none
 
 > summary scores
 precision: 0.1781349327998193

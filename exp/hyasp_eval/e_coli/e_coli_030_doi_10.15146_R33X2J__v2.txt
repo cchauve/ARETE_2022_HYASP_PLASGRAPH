@@ -10,15 +10,15 @@ No. of reference plasmids: 6
 8: 2113 nt
 
 No. of predicted plasmids: 10
-plasmid_3: 33514 nt
+plasmid_3: 20776 nt ( + 12738 nt in unlabelled contigs )
 plasmid_0: 8154 nt
 plasmid_1: 9006 nt
 plasmid_6: 188478 nt
-plasmid_7: 59816 nt
-plasmid_4: 3081 nt
+plasmid_7: 110 nt ( + 59706 nt in unlabelled contigs )
+plasmid_4: 2849 nt ( + 232 nt in unlabelled contigs )
 plasmid_8: 4043 nt
 plasmid_9: 5167 nt
-plasmid_12: 168320 nt
+plasmid_12: 167672 nt ( + 648 nt in unlabelled contigs )
 plasmid_10: 2113 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
@@ -42,15 +42,15 @@ plasmid_10	0.0	0.0	0.0	0.0	0.0	1.0
 7	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 6	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0
 8	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0
-ambiguous	0.004445903204630901	0.26514594064262936	0.18210082167443925	0.0	0.0	0.854592664719247	0.0	0.0	0.0	0.0
+ambiguous	0.007171736619175972	0.26514594064262936	0.18210082167443925	0.0	0.0	0.9241839241839241	0.0	0.0	0.0	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_3	0.004445903204630901
+plasmid_3	0.007171736619175972
 plasmid_0	1.0
 plasmid_1	1.0
 plasmid_6	0.0
 plasmid_7	0.0
-plasmid_4	0.854592664719247
+plasmid_4	0.9241839241839241
 plasmid_8	1.0
 plasmid_9	1.0
 plasmid_12	0.0
@@ -70,6 +70,6 @@ plasmid_9 <-> 5
 plasmid_10 <-> 8
 
 > summary scores
-precision: 0.0649066208282471
+precision: 0.07656084707910513
 recall: 0.5744844280992505
-f1_score: 0.11663548624559683
+f1_score: 0.13511507148864452

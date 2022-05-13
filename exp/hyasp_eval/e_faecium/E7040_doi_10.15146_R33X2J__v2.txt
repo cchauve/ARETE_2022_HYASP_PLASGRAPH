@@ -17,7 +17,7 @@ plasmid_16: 7447 nt
 plasmid_17: 6598 nt
 plasmid_10: 8845 nt
 plasmid_11: 3540 nt
-plasmid_34: 53629 nt
+plasmid_34: 53629 nt ( + 159 nt in unlabelled contigs )
 plasmid_13: 5791 nt
 plasmid_38: 1630 nt
 plasmid_39: 3213 nt

@@ -26,6 +26,7 @@ plasmid_9	0.0
 > in total, how much of reference plasmid is covered by predicted plasmids
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+none
 
 > summary scores
 precision: 0.0

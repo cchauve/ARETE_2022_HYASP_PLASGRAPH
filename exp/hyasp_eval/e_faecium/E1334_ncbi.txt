@@ -50,6 +50,7 @@ plasmid_17	0.03893750722849763
 2	0.7574608356135888
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+none
 
 > summary scores
 precision: 0.8426060402934495

@@ -22,8 +22,8 @@ plasmid_12: 2393 nt
 plasmid_5: 13507 nt
 plasmid_8: 25852 nt
 plasmid_13: 3575 nt
-plasmid_18: 4372 nt
-plasmid_19: 2056 nt
+plasmid_18: 0 nt ( + 4372 nt in unlabelled contigs )
+plasmid_19: 0 nt ( + 2056 nt in unlabelled contigs )
 plasmid_9: 13642 nt
 plasmid_50: 3202 nt
 plasmid_15: 7038 nt
@@ -104,6 +104,6 @@ plasmid_15 <-> 6
 plasmid_14 <-> 8
 
 > summary scores
-precision: 0.9162684390086114
+precision: 0.9346009947894943
 recall: 0.8020166878800735
-f1_score: 0.8553441651367306
+f1_score: 0.8632476817560016

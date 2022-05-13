@@ -13,12 +13,12 @@ No. of predicted plasmids: 14
 plasmid_2: 23622 nt
 plasmid_14: 15316 nt
 plasmid_1: 59625 nt
-plasmid_6: 49238 nt
-plasmid_7: 90036 nt
-plasmid_4: 92687 nt
-plasmid_5: 63406 nt
+plasmid_6: 48866 nt ( + 372 nt in unlabelled contigs )
+plasmid_7: 0 nt ( + 90036 nt in unlabelled contigs )
+plasmid_4: 92538 nt ( + 149 nt in unlabelled contigs )
+plasmid_5: 61903 nt ( + 1503 nt in unlabelled contigs )
 plasmid_8: 43021 nt
-plasmid_13: 5228 nt
+plasmid_13: 5079 nt ( + 149 nt in unlabelled contigs )
 plasmid_12: 2781 nt
 plasmid_17: 2056 nt
 plasmid_15: 9508 nt
@@ -45,21 +45,21 @@ plasmid_48	0.0	0.0	0.0	0.0	0.0	0.0
 > reference plasmid covers <proportion> of predicted plasmid
 	plasmid_2	plasmid_14	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_8	plasmid_13	plasmid_12	plasmid_17	plasmid_15	plasmid_10	plasmid_48
 3	0.0	0.0	0.9303815513626834	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-5	0.0	0.0	0.0	0.0	0.0	0.15473583134635926	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+5	0.0	0.0	0.0	0.0	0.0	0.15498497914370313	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 4	0.0	0.8943588404283103	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.7240104911778732	0.0
 6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0
 9	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0
 8	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-ambiguous	0.0	0.10564115957168974	0.06961844863731656	0.027377228969495106	0.0	0.01454357137462643	0.00638740813172255	0.016387345714883428	0.0	0.14563106796116504	0.0	0.0	0.06622556032427276	0.0
+ambiguous	0.0	0.10564115957168974	0.06961844863731656	0.02758564236892727	0.0	0.014566988696535478	0.006542493901749511	0.016387345714883428	0.0	0.14563106796116504	0.0	0.0	0.06622556032427276	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
 plasmid_2	0.0
 plasmid_14	1.0
 plasmid_1	1.0
-plasmid_6	0.027377228969495106
+plasmid_6	0.02758564236892727
 plasmid_7	0.0
-plasmid_4	0.16927940272098568
-plasmid_5	0.00638740813172255
+plasmid_4	0.1695519678402386
+plasmid_5	0.006542493901749511
 plasmid_8	0.016387345714883428
 plasmid_13	0.0
 plasmid_12	0.14563106796116504
@@ -82,6 +82,6 @@ plasmid_17 <-> 9
 plasmid_15 <-> 6
 
 > summary scores
-precision: 0.24848888347495893
+precision: 0.30816895832302327
 recall: 0.9042105529460378
-f1_score: 0.38984363768835
+f1_score: 0.45967392489895875
