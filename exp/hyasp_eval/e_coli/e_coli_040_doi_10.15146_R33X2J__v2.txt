@@ -1,0 +1,66 @@
+##### general information #####
+No. of reference chromosomes: 1
+1: 5327358 nt
+No. of reference plasmids: 1
+2: 139002 nt
+
+No. of predicted plasmids: 13
+plasmid_2: 5123 nt
+plasmid_3: 15398 nt
+plasmid_0: 5592 nt
+plasmid_17: 4124 nt
+plasmid_21: 209604 nt
+plasmid_7: 2945 nt
+plasmid_5: 166202 nt
+plasmid_28: 20880 nt
+plasmid_9: 69741 nt
+plasmid_18: 12994 nt
+plasmid_19: 1774 nt
+plasmid_20: 28797 nt
+plasmid_11: 58905 nt
+
+> predicted plasmid covers <proportion> of reference plasmid
+	2
+plasmid_2	0.0
+plasmid_3	0.09835110286182933
+plasmid_0	0.04022963698364052
+plasmid_17	0.02138818146501489
+plasmid_21	0.0
+plasmid_7	0.0028129091667745787
+plasmid_5	0.07746651127321909
+plasmid_28	0.0
+plasmid_9	0.23157220759413533
+plasmid_18	0.0
+plasmid_19	0.0
+plasmid_20	0.0
+plasmid_11	0.39508784046272716
+
+> reference plasmid covers <proportion> of predicted plasmid
+	plasmid_2	plasmid_3	plasmid_0	plasmid_17	plasmid_21	plasmid_7	plasmid_5	plasmid_28	plasmid_9	plasmid_18	plasmid_19	plasmid_20	plasmid_11
+2	0.0	0.8878425769580465	1.0	0.7209020368574199	0.0	0.13276740237691	0.06478863070239829	0.0	0.46155059434192225	0.0	0.0	0.0	0.9323147440794499
+ambiguous	0.0	0.1121574230419535	0.0	0.27909796314258	0.012876662659109559	0.631918505942275	0.03103452425361909	0.03031609195402299	0.0590900618000889	0.0	0.2593010146561443	0.0	0.06768525592055004
+
+> in total, how much of predicted plasmid is covered by reference plasmids
+plasmid_2	0.0
+plasmid_3	1.0
+plasmid_0	1.0
+plasmid_17	1.0
+plasmid_21	0.012876662659109559
+plasmid_7	0.764685908319185
+plasmid_5	0.09582315495601738
+plasmid_28	0.03031609195402299
+plasmid_9	0.5206406561420112
+plasmid_18	0.0
+plasmid_19	0.2593010146561443
+plasmid_20	0.0
+plasmid_11	1.0
+
+> in total, how much of reference plasmid is covered by predicted plasmids
+2	0.8669083898073409
+
+> pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+
+> summary scores
+precision: 0.23634606089898502
+recall: 0.8669083898073409
+f1_score: 0.3714290623710095

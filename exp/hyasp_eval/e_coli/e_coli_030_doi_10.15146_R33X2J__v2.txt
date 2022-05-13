@@ -1,0 +1,75 @@
+##### general information #####
+No. of reference chromosomes: 1
+1: 5001941 nt
+No. of reference plasmids: 6
+4: 7939 nt
+5: 5167 nt
+3: 19644 nt
+6: 4195 nt
+7: 3904 nt
+8: 2113 nt
+
+No. of predicted plasmids: 10
+plasmid_3: 33514 nt
+plasmid_0: 8154 nt
+plasmid_1: 9006 nt
+plasmid_6: 188478 nt
+plasmid_7: 59816 nt
+plasmid_4: 3081 nt
+plasmid_8: 4043 nt
+plasmid_9: 5167 nt
+plasmid_12: 168320 nt
+plasmid_10: 2113 nt
+
+> predicted plasmid covers <proportion> of reference plasmid
+	3	5	4	7	6	8
+plasmid_3	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_0	0.30502952555487683	0.0	0.0	0.0	0.0	0.0
+plasmid_1	0.374974546935451	0.0	0.0	0.0	0.0	0.0
+plasmid_6	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_7	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_4	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_8	0.0	0.0	0.0	0.0	0.9637663885578069	0.0
+plasmid_9	0.0	1.0	0.0	0.0	0.0	0.0
+plasmid_12	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_10	0.0	0.0	0.0	0.0	0.0	1.0
+
+> reference plasmid covers <proportion> of predicted plasmid
+	plasmid_3	plasmid_0	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_8	plasmid_9	plasmid_12	plasmid_10
+3	0.0	0.7348540593573706	0.8178991783255607	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0
+4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+7	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+6	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0
+8	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0
+ambiguous	0.004445903204630901	0.26514594064262936	0.18210082167443925	0.0	0.0	0.854592664719247	0.0	0.0	0.0	0.0
+
+> in total, how much of predicted plasmid is covered by reference plasmids
+plasmid_3	0.004445903204630901
+plasmid_0	1.0
+plasmid_1	1.0
+plasmid_6	0.0
+plasmid_7	0.0
+plasmid_4	0.854592664719247
+plasmid_8	1.0
+plasmid_9	1.0
+plasmid_12	0.0
+plasmid_10	1.0
+
+> in total, how much of reference plasmid is covered by predicted plasmids
+3	0.6800040724903278
+5	1.0
+4	0.0
+7	0.0
+6	0.9637663885578069
+8	1.0
+
+> pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+plasmid_8 <-> 6
+plasmid_9 <-> 5
+plasmid_10 <-> 8
+
+> summary scores
+precision: 0.0649066208282471
+recall: 0.5744844280992505
+f1_score: 0.11663548624559683

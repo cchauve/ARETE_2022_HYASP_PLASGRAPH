@@ -1,0 +1,71 @@
+##### general information #####
+No. of reference chromosomes: 1
+1: 2558647 nt
+No. of reference plasmids: 5
+2: 172850 nt
+3: 9317 nt
+4: 4372 nt
+5: 4295 nt
+6: 1981 nt
+
+No. of predicted plasmids: 10
+plasmid_2: 30722 nt
+plasmid_3: 48413 nt
+plasmid_0: 9317 nt
+plasmid_1: 35675 nt
+plasmid_6: 2159 nt
+plasmid_7: 12721 nt
+plasmid_4: 35780 nt
+plasmid_5: 62327 nt
+plasmid_8: 9026 nt
+plasmid_9: 4372 nt
+
+> predicted plasmid covers <proportion> of reference plasmid
+	3	2	5	4	6
+plasmid_2	0.0	0.16359271044258028	0.0	0.0	0.0
+plasmid_3	0.0	0.0	0.0	0.0	0.0
+plasmid_0	1.0	0.0	0.0	0.0	0.0
+plasmid_1	0.0	0.1989470639282615	0.0	0.0	0.0
+plasmid_6	0.0	0.012490598785073763	0.0	0.0	0.0
+plasmid_7	0.0	0.07160543824124964	0.0	0.0	0.0
+plasmid_4	0.0	0.06420595892392247	0.0	0.0	0.0
+plasmid_5	0.0	0.3579056985825861	0.0	0.0	0.0
+plasmid_8	0.0	0.05221868672259184	0.0	0.0	0.0
+plasmid_9	0.0	0.0	0.0	1.0	0.0
+
+> reference plasmid covers <proportion> of predicted plasmid
+	plasmid_2	plasmid_3	plasmid_0	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_8	plasmid_9
+3	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+2	0.9204153375431287	0.0	0.0	0.9639243167484233	1.0	0.9729581007782407	0.3101732811626607	0.9925714377396634	1.0	0.0
+5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0
+6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ambiguous	0.07958466245687129	0.0	0.0	0.036075683251576736	0.0	0.027041899221759296	0.0	0.007428562260336611	0.0	0.0
+
+> in total, how much of predicted plasmid is covered by reference plasmids
+plasmid_2	1.0
+plasmid_3	0.0
+plasmid_0	1.0
+plasmid_1	1.0
+plasmid_6	1.0
+plasmid_7	1.0
+plasmid_4	0.3101732811626607
+plasmid_5	1.0
+plasmid_8	1.0
+plasmid_9	1.0
+
+> in total, how much of reference plasmid is covered by predicted plasmids
+3	1.0
+2	0.9209661556262657
+5	0.0
+4	1.0
+6	0.0
+
+> pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
+plasmid_0 <-> 3
+plasmid_9 <-> 4
+
+> summary scores
+precision: 0.7082175704157885
+recall: 0.8966003682286131
+f1_score: 0.7913522389426276
