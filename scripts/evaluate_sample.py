@@ -110,8 +110,7 @@ if __name__ == "__main__":
 			if c_id:
 				if ori_used == 1:
 					c_id = c_id[:-1]	
-				plasmid_dict[p_id].append(c_id)
-                                
+				plasmid_dict[p_id].append(c_id)	
 
 	#########################################
 	# Comparing true and predicted plasmids #
@@ -134,9 +133,9 @@ if __name__ == "__main__":
 	for p_id in pred_plasmids:
 		pred_lens[p_id] = 0
 		for c_id in plasmid_dict[p_id]:
-                        # Handling the case of short contigs absent from ground truth file
+			# Handling the case of short contigs absent from ground truth file
                         if c_id in contig_dict.keys():
-			        t_id = contig_dict[c_id]['map'][0]
+                                t_id = contig_dict[c_id]['map'][0]
 			        c_len = contig_dict[c_id]['length']
 			        pred_lens[p_id] += c_len
 			        if t_id == None:
