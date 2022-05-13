@@ -21,14 +21,14 @@ gunzip ${INPUT}.gz
 # Mapping contigs against the reference plasmid genes database
 REF1=${ARETE_MAY22_HOME}/exp/doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_genes.fasta
 hyasp map    ${REF1}  -g ${INPUT}                            ${EXP_DIR}/hyasp_output_1/E7663_1_gcm.csv 
-hyasp filter ${REF1}  E${EXP_DIR}/hyasp_output_1/7663_1_gcm.csv    ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv
+hyasp filter ${REF1}  E${EXP_DIR}/hyasp_output_1/E7663_1_gcm.csv    ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv
 # Compute plasmid bins
 hyasp find  ${INPUT} ${REF1} ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv ${EXP_DIR}/hyasp_output_1/
 
 # Using an alternate database
 REF2=${ARETE_MAY22_HOME}/exp/ncbi_database/ncbi_database_genes.fasta
 hyasp map    ${REF1}  -g ${INPUT}                            ${EXP_DIR}/hyasp_output_2/E7663_1_gcm.csv 
-hyasp filter ${REF1}  E${EXP_DIR}/hyasp_output_2/7663_1_gcm.csv    ${EXP_DIR}/hyasp_output_2/E7663_1_filtered_gcm.csv
+hyasp filter ${REF1}  E${EXP_DIR}/hyasp_output_2/E7663_1_gcm.csv    ${EXP_DIR}/hyasp_output_2/E7663_1_filtered_gcm.csv
 hyasp find  ${INPUT} ${REF1} ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv ${EXP_DIR}/hyasp_output_2/
 
 rm assembly.fasta contigs_blast*
