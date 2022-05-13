@@ -22,3 +22,7 @@ do
     python evaluate_sample.py --pred ${PRED_FILE_1} --map ${GROUND_TRUTH_FILE} --out ${OUT_DIR} --res ${ID}_doi_10.15146_R33X2J__v2.txt --amb 1 --ori 1
     python evaluate_sample.py --pred ${PRED_FILE_2} --map ${GROUND_TRUTH_FILE} --out ${OUT_DIR} --res ${ID}_ncbi.txt --amb 1 --ori 1
 done
+
+grep precision ${SPECIES}/* > ${SPECIES}_precision.txt
+grep recall ${SPECIES}/* > ${SPECIES}_recall.txt
+grep f1_score ${SPECIES}/* > ${SPECIES}_F1.txt
