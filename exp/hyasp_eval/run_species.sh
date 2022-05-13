@@ -8,7 +8,7 @@ ID_LIST=`cat ${ARETE_MAY22_HOME}/data/${SPECIES}/${SPECIES}_id.txt`
 EXP_DIR_1=${ARETE_MAY22_HOME}/exp/${SPECIES}_hyasp_doi_10.15146_R33X2J__v2/
 EXP_DIR_2=${ARETE_MAY22_HOME}/exp/${SPECIES}_hyasp_ncbi/
 
-EVAL_DIR=${ARETE_MAY22_HOME}/tools/PlasEval/eval_scripts/
+EVAL_DIR=${ARETE_MAY22_HOME}/scripts/
 OUT_DIR=${ARETE_MAY22_HOME}/exp/hyasp_eval/${SPECIES}
 mkdir -p ${OUT_DIR}
 
