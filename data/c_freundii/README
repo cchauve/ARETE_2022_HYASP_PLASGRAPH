@@ -1,4 +1,4 @@
-_Data: /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/
+Data: /home/chauvec/projects/ctb-chauvec/jsiele/results/e_coli/
 
 DATA:
 Short-reads assemblies:		/home/chauvec/projects/ctb-chauvec/jsiele/results/c_freundii/short_read_assembly/
@@ -8,8 +8,6 @@ Short-reads contigs labels: 	/home/chauvec/projects/ctb-chauvec/jsiele/results/c
 Samples IDs: 	    		ll /home/chauvec/projects/ctb-chauvec/jsiele/results/c_freundii/short_read_assembly/
 				| awk '{print $9}' | sed 's/_assembly\///' > c_freundii_id_all.txt
 				cp c_freundii_id_all.txt c_freundii_id.txt
-
-Updating sample IDs in c_freundii_id.txt to remove the ones with unfinished assemblies: 037, 038, 041, 047, 054, 063, 068
 
 GROUND TRUTH
 The ground truth describes which short-read contigs originate from plasmids.
