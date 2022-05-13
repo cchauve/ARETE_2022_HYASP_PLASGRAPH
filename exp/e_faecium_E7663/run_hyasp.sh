@@ -31,7 +31,6 @@ hyasp map    ${REF1}  -g ${INPUT}                            ${EXP_DIR}/hyasp_ou
 hyasp filter ${REF1}  ${EXP_DIR}/hyasp_output_2/E7663_1_gcm.csv    ${EXP_DIR}/hyasp_output_2/E7663_1_filtered_gcm.csv
 hyasp find  ${INPUT} ${REF1} ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv ${EXP_DIR}/hyasp_output_2/
 
-rm assembly.fasta contigs_blast*
 gzip ${INPUT}
 gzip ${EXP_DIR}/hyasp_output_1/*
 gzip ${EXP_DIR}/hyasp_output_2/*
