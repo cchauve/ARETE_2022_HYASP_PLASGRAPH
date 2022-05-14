@@ -1,48 +1,57 @@
 ##### general information #####
-No. of reference chromosomes: 0
-No. of reference plasmids: 0
+No. of reference chromosomes: 1
+1: 4937973 nt
+No. of reference plasmids: 3
+2: 106559 nt
+3: 6221 nt
+4: 4593 nt
 
 No. of predicted plasmids: 8
-plasmid_0: 182454 nt
 plasmid_3: 5855 nt
+plasmid_0: 182454 nt
+plasmid_10: 10814 nt
+plasmid_24: 25164 nt
+plasmid_12: 5852 nt
 plasmid_8: 14917 nt
 plasmid_9: 31568 nt
-plasmid_10: 10814 nt
-plasmid_12: 5852 nt
 plasmid_18: 9973 nt
-plasmid_24: 25164 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-""
-plasmid_0
-plasmid_3
-plasmid_8
-plasmid_9
-plasmid_10
-plasmid_12
-plasmid_18
-plasmid_24
+	3	2	4
+plasmid_3	0.0	0.0	0.0
+plasmid_0	0.0	0.0	0.0
+plasmid_10	1.0281305256389648	0.0	0.9618985412584368
+plasmid_24	0.0	0.0	0.0
+plasmid_12	0.0	0.0	0.0
+plasmid_8	0.0	0.13183306900402594	0.0
+plasmid_9	0.0	0.0	0.0
+plasmid_18	0.0	0.0	0.0
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_0	plasmid_3	plasmid_8	plasmid_9	plasmid_10	plasmid_12	plasmid_18	plasmid_24
-ambiguous	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+	plasmid_3	plasmid_0	plasmid_10	plasmid_24	plasmid_12	plasmid_8	plasmid_9	plasmid_18
+3	0.0	0.0	0.5914555206214167	0.0	0.0	0.0	0.0	0.0
+2	0.0	0.0	0.0	0.0	0.0	0.9417443185627137	0.0	0.0
+4	0.0	0.0	0.4085444793785833	0.0	0.0	0.0	0.0	0.0
+ambiguous	0.0	0.0	0.0	0.046852646638054364	0.0	0.058255681437286315	0.01460339584389255	0.08713526521608342
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_0	0.0
 plasmid_3	0.0
-plasmid_8	0.0
-plasmid_9	0.0
-plasmid_10	0.0
+plasmid_0	0.0
+plasmid_10	1.0
+plasmid_24	0.046852646638054364
 plasmid_12	0.0
-plasmid_18	0.0
-plasmid_24	0.0
+plasmid_8	1.0
+plasmid_9	0.01460339584389255
+plasmid_18	0.08713526521608342
 
 > in total, how much of reference plasmid is covered by predicted plasmids
+3	1.0281305256389648
+2	0.13183306900402594
+4	0.9618985412584368
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
-none
 
 > summary scores
-precision: 0.0
-recall: 0
-f1_score: 0
+precision: 0.09853557434306709
+recall: 0.21182043570497475
+f1_score: 0.13450262030728855

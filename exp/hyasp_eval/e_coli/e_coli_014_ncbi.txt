@@ -1,42 +1,54 @@
 ##### general information #####
-No. of reference chromosomes: 0
-No. of reference plasmids: 0
+No. of reference chromosomes: 1
+1: 5083565 nt
+No. of reference plasmids: 3
+2: 72254 nt
+3: 37616 nt
+4: 6809 nt
 
 No. of predicted plasmids: 6
+plasmid_14: 1720 nt
 plasmid_0: 37616 nt
 plasmid_1: 6809 nt
+plasmid_6: 26457 nt
 plasmid_4: 72254 nt
 plasmid_5: 148334 nt
-plasmid_6: 26457 nt
-plasmid_14: 1720 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-""
-plasmid_0
-plasmid_1
-plasmid_4
-plasmid_5
-plasmid_6
-plasmid_14
+	3	2	4
+plasmid_14	0.0	0.0	0.0
+plasmid_0	1.0	0.0	0.0
+plasmid_1	0.0	0.0	1.0
+plasmid_6	0.0	0.0	0.0
+plasmid_4	0.0	0.986298336424281	0.0
+plasmid_5	0.0	0.0	0.0
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_0	plasmid_1	plasmid_4	plasmid_5	plasmid_6	plasmid_14
-ambiguous	0.0	0.0	0.0	0.0	0.0	0.0
+	plasmid_14	plasmid_0	plasmid_1	plasmid_6	plasmid_4	plasmid_5
+3	0.0	1.0	0.0	0.0	0.0	0.0
+2	0.0	0.0	0.0	0.0	0.986298336424281	0.0
+4	0.0	0.0	1.0	0.0	0.0	0.0
+ambiguous	0.0	0.0	0.0	0.0	0.013701663575718991	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_0	0.0
-plasmid_1	0.0
-plasmid_4	0.0
-plasmid_5	0.0
-plasmid_6	0.0
 plasmid_14	0.0
+plasmid_0	1.0
+plasmid_1	1.0
+plasmid_6	0.0
+plasmid_4	1.0
+plasmid_5	0.0
 
 > in total, how much of reference plasmid is covered by predicted plasmids
+3	1.0
+2	0.986298336424281
+4	1.0
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
-none
+plasmid_0 <-> 3
+plasmid_1 <-> 4
+plasmid_4 <-> 2
 
 > summary scores
-precision: 0.0
-recall: 0
-f1_score: 0
+precision: 0.3979637777550394
+recall: 0.9915151826806881
+f1_score: 0.567964163598916

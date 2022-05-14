@@ -1,69 +1,88 @@
 ##### general information #####
-No. of reference chromosomes: 0
-No. of reference plasmids: 0
+No. of reference chromosomes: 1
+1: 2895125 nt
+No. of reference plasmids: 6
+3: 63798 nt
+2: 239811 nt
+4: 9317 nt
+5: 7837 nt
+6: 3221 nt
+7: 2947 nt
 
 No. of predicted plasmids: 15
-plasmid_0: 2357 nt
-plasmid_1: 28060 nt
 plasmid_2: 21791 nt
 plasmid_3: 59380 nt
-plasmid_4: 5483 nt
-plasmid_5: 9317 nt
+plasmid_0: 2357 nt
+plasmid_1: 28060 nt
 plasmid_6: 56231 nt
 plasmid_7: 25982 nt
+plasmid_4: 5483 nt
+plasmid_5: 9317 nt
 plasmid_8: 24276 nt
 plasmid_9: 53172 nt
+plasmid_15: 15267 nt
+plasmid_14: 9745 nt
+plasmid_27: 2346 nt
 plasmid_10: 16072 nt
 plasmid_11: 15215 nt
-plasmid_14: 9745 nt
-plasmid_15: 15267 nt
-plasmid_27: 2346 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-""
-plasmid_0
-plasmid_1
-plasmid_2
-plasmid_3
-plasmid_4
-plasmid_5
-plasmid_6
-plasmid_7
-plasmid_8
-plasmid_9
-plasmid_10
-plasmid_11
-plasmid_14
-plasmid_15
-plasmid_27
+	3	2	5	4	7	6
+plasmid_2	0.0	0.08515038926487943	0.0	0.0	0.0	0.0
+plasmid_3	0.0	0.057240910550391766	0.0	0.0	0.0	0.0
+plasmid_0	0.0	0.009828573334834516	0.0	0.0	0.0	0.0
+plasmid_1	0.0	0.0853588867900138	0.0	0.0	0.0	0.0
+plasmid_6	0.0	0.2255109231853418	0.0	0.0	0.0	0.0
+plasmid_7	0.0	0.08732293347677964	0.0	0.0	0.0	0.0
+plasmid_4	0.0	0.020357698354120535	0.0	0.0	0.0	0.0
+plasmid_5	0.0	0.0	0.0	1.0	0.0	0.0
+plasmid_8	0.0	0.08965393580778196	0.0	0.0	0.0	0.0
+plasmid_9	0.0	0.06251589793629149	0.0	0.0	0.0	0.0
+plasmid_15	0.21470892504467223	0.0	0.0	0.0	0.0	0.0
+plasmid_14	0.0	0.03806747813903449	0.0	0.0	0.0	0.0
+plasmid_27	0.0	0.0	0.0	0.0	0.0	0.0
+plasmid_10	0.0	0.02985684559924274	0.7580706903151716	0.0	0.0	0.0
+plasmid_11	0.0	0.0012468152003035724	0.7580706903151716	0.0	0.0	0.0
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_0	plasmid_1	plasmid_2	plasmid_3	plasmid_4	plasmid_5	plasmid_6	plasmid_7	plasmid_8	plasmid_9	plasmid_10	plasmid_11	plasmid_14	plasmid_15	plasmid_27
-ambiguous	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+	plasmid_2	plasmid_3	plasmid_0	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_8	plasmid_9	plasmid_15	plasmid_14	plasmid_27	plasmid_10	plasmid_11
+3	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.8972293181371586	0.0	0.0	0.0	0.0
+2	0.9370841172961314	0.23117211182216235	1.0	0.7295081967213115	0.9617470790133557	0.8059810638134093	0.8903884734634324	0.0	0.8856483769978579	0.2819529075453246	0.0	0.9367880964597229	0.0	0.44549527127924343	0.019651659546500163
+5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.36964907914385264	0.39046993098915544
+4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+7	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ambiguous	0.06291588270386857	0.06690804984843382	0.0	0.12124019957234497	0.03825292098664438	0.19401893618659072	0.10961152653656757	0.0	0.11435162300214204	0.059693071541412776	0.10277068186284143	0.06321190354027706	0.7804774083546462	0.18485564957690392	0.36253697009530067
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_0	0.0
-plasmid_1	0.0
-plasmid_2	0.0
-plasmid_3	0.0
-plasmid_4	0.0
-plasmid_5	0.0
-plasmid_6	0.0
-plasmid_7	0.0
-plasmid_8	0.0
-plasmid_9	0.0
-plasmid_10	0.0
-plasmid_11	0.0
-plasmid_14	0.0
-plasmid_15	0.0
-plasmid_27	0.0
+plasmid_2	1.0
+plasmid_3	0.29808016167059614
+plasmid_0	1.0
+plasmid_1	0.8507483962936565
+plasmid_6	1.0
+plasmid_7	1.0
+plasmid_4	1.0
+plasmid_5	1.0
+plasmid_8	1.0
+plasmid_9	0.3416459790867374
+plasmid_15	1.0
+plasmid_14	1.0
+plasmid_27	0.7804774083546462
+plasmid_10	1.0
+plasmid_11	0.7726585606309563
 
 > in total, how much of reference plasmid is covered by predicted plasmids
+3	0.21470892504467223
+2	0.7921112876390156
+5	1.5161413806303432
+4	1.0
+7	0.0
+6	0.0
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
-none
+plasmid_5 <-> 4
 
 > summary scores
-precision: 0.0
-recall: 0
-f1_score: 0
+precision: 0.7538454397233488
+recall: 0.6877720375247376
+f1_score: 0.7192945732691555
