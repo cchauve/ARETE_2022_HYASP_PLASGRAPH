@@ -37,5 +37,5 @@ plt.boxplot([X_DOI, X_NCBI])
 plt.title(f'{SPECIES} {STAT}')
 labels = ['R33X2J__v2', 'NCBI']
 x = [1,2]
-plt.xticks(x, labels, rotation=45)
+plt.xticks(x, labels)
 plt.savefig(f'{SPECIES}_{STAT}_dist.png')
