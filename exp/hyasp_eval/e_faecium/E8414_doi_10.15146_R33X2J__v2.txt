@@ -1,116 +1,96 @@
 ##### general information #####
-No. of reference chromosomes: 1
-1: 3003888 nt
-No. of reference plasmids: 6
-2: 229676 nt
-4: 42699 nt
-6: 6173 nt
-7: 4372 nt
-5: 8562 nt
-8: 3199 nt
+No. of reference chromosomes: 0
+No. of reference plasmids: 0
 
 No. of predicted plasmids: 24
-plasmid_14: 2933 nt ( + 4601 nt in unlabelled contigs )
-plasmid_15: 9449 nt
-plasmid_16: 9662 nt
+plasmid_0: 2188 nt
+plasmid_1: 7451 nt
+plasmid_2: 87468 nt
+plasmid_3: 5517 nt
+plasmid_4: 2417 nt
+plasmid_5: 2246 nt
+plasmid_6: 33671 nt
+plasmid_7: 7347 nt
+plasmid_9: 37337 nt
 plasmid_10: 54149 nt
 plasmid_11: 11675 nt
 plasmid_12: 5341 nt
 plasmid_13: 34384 nt
+plasmid_14: 7534 nt
+plasmid_15: 9449 nt
+plasmid_16: 9662 nt
 plasmid_18: 1732 nt
-plasmid_21: 8110 nt
 plasmid_20: 12577 nt
+plasmid_21: 8110 nt
 plasmid_23: 3091 nt
 plasmid_24: 4072 nt
-plasmid_27: 49370 nt ( + 1321 nt in unlabelled contigs )
+plasmid_27: 50691 nt
 plasmid_28: 4372 nt
-plasmid_2: 1513 nt ( + 85955 nt in unlabelled contigs )
-plasmid_3: 5517 nt
-plasmid_0: 2188 nt
-plasmid_1: 7451 nt
-plasmid_6: 33671 nt
-plasmid_7: 7347 nt
-plasmid_4: 2417 nt
-plasmid_5: 2246 nt
-plasmid_9: 37337 nt
 plasmid_50: 7160 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-	2	5	4	7	6	8
-plasmid_14	0.0	0.0	0.02704981381296986	0.0	0.0	0.0
-plasmid_15	0.033682230620526304	0.0	0.0	0.0	0.0	0.0
-plasmid_16	0.042067956599731796	0.0	0.0	0.0	0.0	0.0
-plasmid_10	0.1244100384890019	0.0	0.0	0.0	0.0	0.0
-plasmid_11	0.04239885752102963	0.0	0.0	0.0	0.0	0.0
-plasmid_12	0.023254497640153957	0.0	0.0	0.0	0.0	0.0
-plasmid_13	0.05094568000139327	0.0	0.4335230333263074	0.0	0.0	0.0
-plasmid_18	0.0	0.0805886475122635	0.0	0.0	0.0	0.0
-plasmid_21	0.03227590170501054	0.0	0.0	0.0	0.0	0.0
-plasmid_20	0.0008707918981521796	0.0	0.2898662732148294	0.0	0.0	0.0
-plasmid_23	0.0	0.0	0.0	0.0	0.0	0.9662394498280713
-plasmid_24	0.0	0.3274935762672273	0.0	0.0	0.0	0.39637386683338544
-plasmid_27	0.0	0.0	0.005761259045879295	0.0	0.0	0.0
-plasmid_28	0.0	0.0	0.0	1.0	0.0	0.0
-plasmid_2	0.001023180480328811	0.0	0.0	0.0	0.0	0.0
-plasmid_3	0.02055939671537296	0.0	0.0	0.0	0.0	0.0
-plasmid_0	0.009526463365784844	0.0	0.0	0.0	0.0	0.0
-plasmid_1	0.0018504327835733817	0.0	0.1335394271528607	0.0	0.0	0.0
-plasmid_6	0.13118479945662587	0.0	0.005409962762593971	0.0	0.0	0.0
-plasmid_7	0.03198854037862032	0.0	0.0	0.0	0.0	0.0
-plasmid_4	0.01052352008916909	0.0	0.0	0.0	0.0	0.0
-plasmid_5	0.005242167226876121	0.0	0.0	0.0	0.0	0.0
-plasmid_9	0.1117835559657953	0.0	0.0	0.0	0.0	0.0
-plasmid_50	0.03117434995384803	0.0	0.0	0.0	0.0	0.0
+""
+plasmid_0
+plasmid_1
+plasmid_2
+plasmid_3
+plasmid_4
+plasmid_5
+plasmid_6
+plasmid_7
+plasmid_9
+plasmid_10
+plasmid_11
+plasmid_12
+plasmid_13
+plasmid_14
+plasmid_15
+plasmid_16
+plasmid_18
+plasmid_20
+plasmid_21
+plasmid_23
+plasmid_24
+plasmid_27
+plasmid_28
+plasmid_50
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_14	plasmid_15	plasmid_16	plasmid_10	plasmid_11	plasmid_12	plasmid_13	plasmid_18	plasmid_21	plasmid_20	plasmid_23	plasmid_24	plasmid_27	plasmid_28	plasmid_2	plasmid_3	plasmid_0	plasmid_1	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_9	plasmid_50
-2	0.0	0.8187109747063182	1.0	0.5276921088108737	0.8340899357601713	1.0	0.34030362959516053	0.0	0.9140567200986437	0.015902043412578518	0.0	0.0	0.0	0.0	0.1553205551883675	0.855899945622621	1.0	0.05703932358072742	0.8948353182263669	1.0	1.0	0.5360641139804097	0.687628893590808	1.0
-5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.39838337182448036	0.0	0.0	0.0	0.6886051080550099	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-4	0.3937947494033413	0.0	0.0	0.0	0.0	0.0	0.538360865518846	0.0	0.0	0.9840979565874215	0.0	0.0	0.00498278306663966	0.0	0.0	0.0	0.0	0.7652664071936652	0.006860503103560928	0.0	0.0	0.0	0.0	0.0
-7	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-8	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.3113948919449902	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-ambiguous	0.6062052505966588	0.18128902529368188	0.0	0.07287299857799774	0.11700214132762313	0.0	0.12133550488599348	0.6016166281755196	0.08594327990135635	0.0	0.0	0.0	0.046546485720072917	0.0	0.8446794448116325	0.14410005437737902	0.0	0.1776942692256073	0.06709037450625167	0.0	0.0	0.4639358860195904	0.04783458767442483	0.0
+	plasmid_0	plasmid_1	plasmid_2	plasmid_3	plasmid_4	plasmid_5	plasmid_6	plasmid_7	plasmid_9	plasmid_10	plasmid_11	plasmid_12	plasmid_13	plasmid_14	plasmid_15	plasmid_16	plasmid_18	plasmid_20	plasmid_21	plasmid_23	plasmid_24	plasmid_27	plasmid_28	plasmid_50
+ambiguous	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_14	1.0
-plasmid_15	1.0
-plasmid_16	1.0
-plasmid_10	0.6005651073888715
-plasmid_11	0.9510920770877944
-plasmid_12	1.0
-plasmid_13	1.0
-plasmid_18	1.0
-plasmid_21	1.0
-plasmid_20	1.0
-plasmid_23	1.0
-plasmid_24	1.0
-plasmid_27	0.05152926878671257
-plasmid_28	1.0
-plasmid_2	1.0
-plasmid_3	1.0
-plasmid_0	1.0
-plasmid_1	0.9999999999999999
-plasmid_6	0.9687861958361794
-plasmid_7	1.0
-plasmid_4	1.0
-plasmid_5	1.0
-plasmid_9	0.7354634812652329
-plasmid_50	1.0
+plasmid_0	0.0
+plasmid_1	0.0
+plasmid_2	0.0
+plasmid_3	0.0
+plasmid_4	0.0
+plasmid_5	0.0
+plasmid_6	0.0
+plasmid_7	0.0
+plasmid_9	0.0
+plasmid_10	0.0
+plasmid_11	0.0
+plasmid_12	0.0
+plasmid_13	0.0
+plasmid_14	0.0
+plasmid_15	0.0
+plasmid_16	0.0
+plasmid_18	0.0
+plasmid_20	0.0
+plasmid_21	0.0
+plasmid_23	0.0
+plasmid_24	0.0
+plasmid_27	0.0
+plasmid_28	0.0
+plasmid_50	0.0
 
 > in total, how much of reference plasmid is covered by predicted plasmids
-2	0.7047623608909943
-5	0.40808222377949077
-4	0.8951497693154407
-7	1.0
-6	0.0
-8	1.3626133166614567
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
-plasmid_23 <-> 8
-plasmid_28 <-> 7
+none
 
 > summary scores
-precision: 0.7483855943404539
-recall: 0.7204875780929209
-f1_score: 0.7341716554775487
+precision: 0.0
+recall: 0
+f1_score: 0

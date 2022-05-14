@@ -28,3 +28,8 @@ cd ../
 grep precision ${SPECIES}/* > ${SPECIES}_precision.txt
 grep recall ${SPECIES}/* > ${SPECIES}_recall.txt
 grep f1_score ${SPECIES}/* > ${SPECIES}_F1.txt
+
+module load python/3
+python ${EVAL_DIR}/plot_statistics.py ${SPECIES} precision
+python ${EVAL_DIR}/plot_statistics.py ${SPECIES} recall
+python ${EVAL_DIR}/plot_statistics.py ${SPECIES} F1

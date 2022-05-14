@@ -1,58 +1,51 @@
 ##### general information #####
-No. of reference chromosomes: 1
-1: 4713197 nt
-No. of reference plasmids: 2
-2: 96746 nt
-3: 1942 nt
+No. of reference chromosomes: 0
+No. of reference plasmids: 0
 
 No. of predicted plasmids: 9
-plasmid_2: 44600 nt
-plasmid_3: 11595 nt
 plasmid_0: 3679 nt
 plasmid_1: 42181 nt
-plasmid_7: 14051 nt
+plasmid_2: 44600 nt
+plasmid_3: 11595 nt
 plasmid_4: 20975 nt
-plasmid_20: 1956 nt
+plasmid_7: 14051 nt
 plasmid_8: 2967 nt
 plasmid_16: 2018 nt
+plasmid_20: 1956 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-	3	2
-plasmid_2	0.0	0.0
-plasmid_3	0.0	0.09235523949310566
-plasmid_0	0.0	0.038027411986025265
-plasmid_1	0.0	0.34220536249560707
-plasmid_7	0.0	0.10942054451863643
-plasmid_4	0.0	0.21680482914022284
-plasmid_20	0.0	0.0
-plasmid_8	0.0	0.0
-plasmid_16	0.0	0.02085874351394373
+""
+plasmid_0
+plasmid_1
+plasmid_2
+plasmid_3
+plasmid_4
+plasmid_7
+plasmid_8
+plasmid_16
+plasmid_20
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_2	plasmid_3	plasmid_0	plasmid_1	plasmid_7	plasmid_4	plasmid_20	plasmid_8	plasmid_16
-3	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-2	0.0	0.7705907718844329	1.0	0.7848794480927431	0.753398334638104	1.0	0.0	0.0	1.0
-ambiguous	0.06242152466367713	0.22940922811556705	0.0	0.21512055190725682	0.04184755533413992	0.0	0.0	0.8604651162790697	0.0
+	plasmid_0	plasmid_1	plasmid_2	plasmid_3	plasmid_4	plasmid_7	plasmid_8	plasmid_16	plasmid_20
+ambiguous	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_2	0.06242152466367713
-plasmid_3	1.0
-plasmid_0	1.0
-plasmid_1	1.0
-plasmid_7	0.7952458899722439
-plasmid_4	1.0
+plasmid_0	0.0
+plasmid_1	0.0
+plasmid_2	0.0
+plasmid_3	0.0
+plasmid_4	0.0
+plasmid_7	0.0
+plasmid_8	0.0
+plasmid_16	0.0
 plasmid_20	0.0
-plasmid_8	0.8604651162790697
-plasmid_16	1.0
 
 > in total, how much of reference plasmid is covered by predicted plasmids
-3	0.0
-2	0.8196721311475409
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
 none
 
 > summary scores
-precision: 0.6732235352932191
-recall: 0.8035424773022047
-f1_score: 0.7326329326565622
+precision: 0.0
+recall: 0
+f1_score: 0

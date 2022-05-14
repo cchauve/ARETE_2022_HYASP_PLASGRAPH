@@ -1,6 +1,5 @@
 ##### general information #####
-No. of reference chromosomes: 1
-1: 2570715 nt
+No. of reference chromosomes: 0
 No. of reference plasmids: 0
 
 No. of predicted plasmids: 0

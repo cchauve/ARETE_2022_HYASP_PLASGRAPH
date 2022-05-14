@@ -1,104 +1,87 @@
 ##### general information #####
-No. of reference chromosomes: 1
-1: 4480475 nt
-No. of reference plasmids: 5
-3: 44007 nt
-2: 50161 nt
-4: 8136 nt
-5: 2460 nt
-6: 1552 nt
+No. of reference chromosomes: 0
+No. of reference plasmids: 0
 
 No. of predicted plasmids: 21
+plasmid_0: 40512 nt
 plasmid_2: 7101 nt
 plasmid_3: 7153 nt
-plasmid_0: 40512 nt
-plasmid_17: 14171 nt
-plasmid_6: 7691 nt
-plasmid_7: 16651 nt
 plasmid_4: 4620 nt
 plasmid_5: 4386 nt
-plasmid_12: 18298 nt
-plasmid_18: 4931 nt
-plasmid_16: 16463 nt
-plasmid_19: 25009 nt
-plasmid_22: 2427 nt
-plasmid_20: 1552 nt
-plasmid_14: 5298 nt
-plasmid_11: 20823 nt
+plasmid_6: 7691 nt
+plasmid_7: 16651 nt
 plasmid_10: 2250 nt
+plasmid_11: 20823 nt
+plasmid_12: 18298 nt
+plasmid_14: 5298 nt
+plasmid_15: 116924 nt
+plasmid_16: 16463 nt
+plasmid_17: 14171 nt
+plasmid_18: 4931 nt
+plasmid_19: 25009 nt
+plasmid_20: 1552 nt
+plasmid_21: 2460 nt
+plasmid_22: 2427 nt
 plasmid_24: 1637 nt
 plasmid_25: 1755 nt
-plasmid_21: 2460 nt
-plasmid_15: 116924 nt
 
 > predicted plasmid covers <proportion> of reference plasmid
-	3	2	5	4	6
-plasmid_2	0.16136069261708363	0.0	0.0	0.0	0.0
-plasmid_3	0.14070488785874974	0.0	0.0	0.0	0.0
-plasmid_0	0.33785534119571886	0.5112338270768126	0.0	0.0	0.0
-plasmid_17	0.0	0.0	0.0	0.0	0.0
-plasmid_6	0.0	0.13313131715874882	0.0	0.0	0.0
-plasmid_7	0.3783716226963892	0.0	0.0	0.0	0.0
-plasmid_4	0.07069329879337378	0.0	0.0	0.0	0.0
-plasmid_5	0.023632603903924375	0.01752357409142561	0.0	0.0	0.0
-plasmid_12	0.0	0.1774087438448197	0.0	0.9167895771878073	0.0
-plasmid_18	0.0	0.09152528857080201	0.0	0.0	0.0
-plasmid_16	0.0	0.0	0.0	0.0	0.0
-plasmid_19	0.0	0.0	0.0	0.0	0.0
-plasmid_20	0.0	0.0	0.0	0.0	1.0
-plasmid_22	0.0	0.0	0.0	0.0	0.0
-plasmid_15	0.0	0.0	0.0	0.0	0.0
-plasmid_14	0.0	0.0	0.0	0.0	0.0
-plasmid_10	0.030745108732701615	0.0	0.0	0.0	0.0
-plasmid_24	0.0	0.0	0.0	0.0	0.0
-plasmid_25	0.0	0.0	0.0	0.0	0.0
-plasmid_21	0.0	0.0	1.0	0.0	0.0
-plasmid_11	0.0	0.0	0.0	0.0	0.0
+""
+plasmid_0
+plasmid_2
+plasmid_3
+plasmid_4
+plasmid_5
+plasmid_6
+plasmid_7
+plasmid_10
+plasmid_11
+plasmid_12
+plasmid_14
+plasmid_15
+plasmid_16
+plasmid_17
+plasmid_18
+plasmid_19
+plasmid_20
+plasmid_21
+plasmid_22
+plasmid_24
+plasmid_25
 
 > reference plasmid covers <proportion> of predicted plasmid
-	plasmid_2	plasmid_3	plasmid_0	plasmid_17	plasmid_6	plasmid_7	plasmid_4	plasmid_5	plasmid_12	plasmid_18	plasmid_16	plasmid_19	plasmid_20	plasmid_22	plasmid_15	plasmid_14	plasmid_10	plasmid_24	plasmid_25	plasmid_21	plasmid_11
-3	1.0	0.8656507758982245	0.36700236966824645	0.0	0.0	1.0	0.6733766233766234	0.23711810305517556	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.6013333333333334	0.0	0.0	0.0	0.0
-2	0.0	0.0	0.6329976303317536	0.0	0.8682876088935119	0.0	0.0	0.20041039671682626	0.4863373046234561	0.9310484688704117	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0
-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.40764017925456336	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-6	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
-ambiguous	0.0	0.13434922410177547	0.0	0.0	0.1317123911064881	0.0	0.32662337662337665	0.2441860465116279	0.10602251612198055	0.06895153112958832	0.0	0.0	0.0	0.0	0.0	0.19120422801057002	0.39866666666666667	0.0	0.0	0.0	0.0
+	plasmid_0	plasmid_2	plasmid_3	plasmid_4	plasmid_5	plasmid_6	plasmid_7	plasmid_10	plasmid_11	plasmid_12	plasmid_14	plasmid_15	plasmid_16	plasmid_17	plasmid_18	plasmid_19	plasmid_20	plasmid_21	plasmid_22	plasmid_24	plasmid_25
+ambiguous	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 
 > in total, how much of predicted plasmid is covered by reference plasmids
-plasmid_2	1.0
-plasmid_3	1.0
-plasmid_0	1.0
-plasmid_17	0.0
-plasmid_6	1.0
-plasmid_7	1.0
-plasmid_4	1.0
-plasmid_5	0.6817145462836297
-plasmid_12	1.0
-plasmid_18	1.0
-plasmid_16	0.0
-plasmid_19	0.0
-plasmid_20	1.0
-plasmid_22	0.0
+plasmid_0	0.0
+plasmid_2	0.0
+plasmid_3	0.0
+plasmid_4	0.0
+plasmid_5	0.0
+plasmid_6	0.0
+plasmid_7	0.0
+plasmid_10	0.0
+plasmid_11	0.0
+plasmid_12	0.0
+plasmid_14	0.0
 plasmid_15	0.0
-plasmid_14	0.19120422801057002
-plasmid_10	1.0
+plasmid_16	0.0
+plasmid_17	0.0
+plasmid_18	0.0
+plasmid_19	0.0
+plasmid_20	0.0
+plasmid_21	0.0
+plasmid_22	0.0
 plasmid_24	0.0
 plasmid_25	0.0
-plasmid_21	1.0
-plasmid_11	0.0
 
 > in total, how much of reference plasmid is covered by predicted plasmids
-3	1.1433635557979411
-2	0.9308227507426088
-5	1.0
-4	0.9167895771878073
-6	1.0
 
 > pairs of predicted and reference plasmids with coverage >= 0.800000 in both directions
-plasmid_20 <-> 6
-plasmid_21 <-> 5
+none
 
 > summary scores
-precision: 0.36391689847009734
-recall: 1.020335603295835
-f1_score: 0.5364879134064562
+precision: 0.0
+recall: 0
+f1_score: 0
