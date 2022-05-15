@@ -29,6 +29,7 @@ def read_classification_file(CLASS_DATA):
 
 DATA_ALL = {'chromosome': [], 'plasmid': [], 'ambiguous': [], 'no_label': []}
 LEN_ALL = {'chromosome': [], 'plasmid': [], 'ambiguous': [], 'no_label': []}
+NB_CTG = 0
 
 for sample_id in SAMPLES_ID_LIST:
     # Read classifcation file
@@ -52,7 +53,10 @@ for sample_id in SAMPLES_ID_LIST:
         ctg_label = LABELS_CTG[sample_id][ctg_id]
         DATA_ALL[ctg_label].append((chr_score, pla_score))
         LEN_ALL[ctg_label].append(LEN_CTG[sample_id][ctg_id])
+        NB_CTG += 1
 
+NB_SAMPLES = len(SAMPLES_ID_LIST)
+        
 CHR_X = [x[0] for x in DATA_ALL['chromosome']]
 PLA_X = [x[0] for x in DATA_ALL['plasmid']]
 AMB_X = [x[0] for x in DATA_ALL['ambiguous']]
@@ -67,7 +71,7 @@ AMB_SIZE = [math.ceil(x/1000) for x in LEN_ALL['ambiguous']]
 NOL_SIZE = [math.ceil(x/1000) for x in LEN_ALL['no_label']]
 
 fig, ax = plt.subplots(2,2,figsize=(20,20))
-fig.suptitle('plASgraph accuracy', fontsize=30, fontweight='bold')
+fig.suptitle(f'plASgraph accuracy {NB_SAMPLES} samples {NB_CTG} contigs', fontsize=30, fontweight='bold')
 ax[0,0].scatter(CHR_X, CHR_Y, color='red', alpha=0.5, s=CHR_SIZE)
 ax[0,0].axvline(0.5)
 ax[0,0].axhline(0.5)
