@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARETE_MAY22_HOME=/home/cchauve/projects/ctb-chauvec/PLASMIDS/ARETE_2022_HYASP_PLASGRAPH
+source ../../home.sh
 
 module load python/3
 
