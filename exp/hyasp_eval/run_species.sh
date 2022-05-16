@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Experiments home directory
-ARETE_MAY22_HOME=/home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_MAY22/
+source ../../home.sh
 SPECIES=$1
 ID_LIST=`cat ${ARETE_MAY22_HOME}/data/${SPECIES}/${SPECIES}_id.txt`
 
