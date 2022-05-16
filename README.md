@@ -33,5 +33,5 @@ Each of this directory contains a README.md file describing it in more details.
 
 Both HyAsP and plASgraph are configured to be ran in a <a href="https://docs.computecanada.ca/wiki/Python">python virtual environment</a>.
 
-The script to install HyAsP (including creating the virtual environment in the current directory) is in [hyasp_install.sh](scripts/install_hyasp.sh).  
-The script to install plASgraph is in [install_plasgraph.sh](scripts/install_plasgraph.sh).  
+The script to install HyAsP (including creating the virtual environment in the current directory) is in [hyasp_install.sh](scripts/hyasp_install.sh).  
+The script to install plASgraph is in [install_plasgraph.sh](scripts/plasgraph_install.sh).  
