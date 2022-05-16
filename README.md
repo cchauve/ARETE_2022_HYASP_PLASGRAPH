@@ -22,8 +22,16 @@ All experiments were run on the **cedar** cluster of ComputeCanada and the repo 
 
 ## Repo organization
 
-Script **home.sh**: this script defines the environment variable for the home directory of all experiments. To reproduce the experiments in your own , only this file needs to be edited.  
+Script [a home.sh](home.sh): this script defines the environment variable for the home directory of all experiments. To reproduce the experiments in your own , only this file needs to be edited.  
 Directory **data**: data needed to reproduce all experiments.  
 Directory **scripts**: installation and analysis scripts.
-Directory **exp**: experiments and results
+Directory **exp**: experiments and results.  
 
+Each of this directory contains a README.md file describing it in more details.
+
+## Tools installation
+
+Both HyAsP and plASgraph are configured to be ran in a <a href="https://docs.computecanada.ca/wiki/Python">python virtual environment</a>.
+
+The script to install HyAsP (including creating the virtual environment in the current directory) is in **scripts/hyasp_install.sh**.
+The script to install plASgraph is in **scripts/install_plasgraph.sh**.  
