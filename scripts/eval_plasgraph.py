@@ -1,7 +1,9 @@
 import sys
 import os
 import math
+import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
 
 HOME_DIR = sys.argv[1]
 SPECIES = sys.argv[2]
@@ -13,7 +15,6 @@ SAMPLES_ID_LIST = []
 for sample_id in SAMPLES_ID_DATA:
     SAMPLES_ID_LIST.append(sample_id.rstrip())
 
-PRECISION, RECALL, F1 = {}, {}, {}
 CLASS_CTG, LABELS_CTG, LEN_CTG = {}, {}, {}
 
 def read_classification_file(CLASS_DATA):
@@ -29,6 +30,7 @@ def read_classification_file(CLASS_DATA):
 
 DATA_ALL = {'chromosome': [], 'plasmid': [], 'ambiguous': [], 'no_label': []}
 LEN_ALL = {'chromosome': [], 'plasmid': [], 'ambiguous': [], 'no_label': []}
+
 NB_CTG = 0
 
 for sample_id in SAMPLES_ID_LIST:
@@ -70,26 +72,28 @@ PLA_SIZE = [math.ceil(x/1000) for x in LEN_ALL['plasmid']]
 AMB_SIZE = [math.ceil(x/1000) for x in LEN_ALL['ambiguous']]
 NOL_SIZE = [math.ceil(x/1000) for x in LEN_ALL['no_label']]
 
-fig, ax = plt.subplots(2,2,figsize=(20,20))
-fig.suptitle(f'plASgraph accuracy {NB_SAMPLES} samples {NB_CTG} contigs', fontsize=30, fontweight='bold')
-ax[0,0].scatter(CHR_X, CHR_Y, color='red', alpha=0.5, s=CHR_SIZE)
-ax[0,0].axvline(0.5)
-ax[0,0].axhline(0.5)
-ax[0,0].set_title('Chromosomal contigs', fontsize=25)
-ax[0,1].scatter(PLA_X, PLA_Y, color='green', alpha=0.5, s=4)
-ax[0,1].axvline(0.5)
-ax[0,1].axhline(0.5)
-ax[0,1].set_title('Plasmid contigs', fontsize=25)
-ax[1,0].scatter(AMB_X, AMB_Y, color='blue', alpha=0.5, s=4)
-ax[1,0].axvline(0.5)
-ax[1,0].axhline(0.5)
-ax[1,0].set_title('Ambiguous contigs', fontsize=25)
-ax[1,1].scatter(NOL_X, NOL_Y, color='black', alpha=0.5, s=4)
-ax[1,1].axvline(0.5)
-ax[1,1].axhline(0.5)
-ax[1,1].set_title('Unlabelled contigs', fontsize=25)
-fig.add_subplot(1, 1, 1, frame_on=False)
-plt.tick_params(labelcolor="none", bottom=False, left=False)
-plt.xlabel('chromosome score', fontsize=25, fontweight='bold')
-plt.ylabel('plasmid score', fontsize=25, fontweight='bold')
-plt.savefig(f'{SPECIES}_plasgraph_accuracy.png')
+COLOR = {'chromosome': 'red', 'plasmid': 'green', 'ambiguous': 'blue', 'no_label': 'black'}
+
+def create_fig_mpl(keyword):
+    fig = plt.figure(figsize=(10,10))
+    gs = GridSpec(4, 4)
+    X = [x[0] for x in DATA_ALL[keyword]]
+    Y = [x[1] for x in DATA_ALL[keyword]]
+    S = [math.ceil(x/1000) for x in LEN_ALL[keyword]]
+    ax_scatter = fig.add_subplot(gs[1:4, 0:3])
+    ax_hist_x = fig.add_subplot(gs[0,0:3])
+    ax_hist_y = fig.add_subplot(gs[1:4, 3])
+    ax_scatter.scatter(X, Y, color=COLOR[keyword], alpha=0.5, s=S)
+    ax_scatter.axvline(0.5)
+    ax_scatter.axhline(0.5)
+    ax_scatter.set_xlabel('chromosome score', fontsize=20)
+    ax_scatter.set_ylabel('plasmid score', fontsize=20)
+    plt.suptitle(f'plASgraph accuracy: {keyword} contigs', fontsize=25)
+    ax_hist_x.hist(X, bins=20)
+    ax_hist_y.hist(Y, bins=20, orientation = 'horizontal')   
+    plt.savefig(f'{SPECIES}_plasgraph_accuracy_{keyword}.png')
+
+create_fig_mpl('chromosome')
+create_fig_mpl('plasmid')
+create_fig_mpl('ambiguous')
+create_fig_mpl('no_label')
