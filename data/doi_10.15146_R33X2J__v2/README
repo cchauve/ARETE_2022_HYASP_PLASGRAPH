@@ -1,5 +1,0 @@
-2022-05-03
-Downloaded from https://datadryad.org/stash/dataset/doi:10.15146/R33X2J
-Paper https://doi.org/10.1128/MRA.01325-18
-unzip doi_10.15146_R33X2J__v2.zip
-grep ">" All_plasmids.fna | sed 's/>//g' > doi_10.15146_R33X2J__v2_id.txt
