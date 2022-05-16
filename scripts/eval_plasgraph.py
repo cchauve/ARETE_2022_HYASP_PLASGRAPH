@@ -59,19 +59,6 @@ for sample_id in SAMPLES_ID_LIST:
 
 NB_SAMPLES = len(SAMPLES_ID_LIST)
         
-CHR_X = [x[0] for x in DATA_ALL['chromosome']]
-PLA_X = [x[0] for x in DATA_ALL['plasmid']]
-AMB_X = [x[0] for x in DATA_ALL['ambiguous']]
-NOL_X = [x[0] for x in DATA_ALL['no_label']]
-CHR_Y = [x[1] for x in DATA_ALL['chromosome']]
-PLA_Y = [x[1] for x in DATA_ALL['plasmid']]
-AMB_Y = [x[1] for x in DATA_ALL['ambiguous']]
-NOL_Y = [x[1] for x in DATA_ALL['no_label']]
-CHR_SIZE = [math.ceil(x/1000) for x in LEN_ALL['chromosome']]
-PLA_SIZE = [math.ceil(x/1000) for x in LEN_ALL['plasmid']]
-AMB_SIZE = [math.ceil(x/1000) for x in LEN_ALL['ambiguous']]
-NOL_SIZE = [math.ceil(x/1000) for x in LEN_ALL['no_label']]
-
 COLOR = {'chromosome': 'red', 'plasmid': 'green', 'ambiguous': 'blue', 'no_label': 'black'}
 
 def create_fig_mpl(keyword):
@@ -97,3 +84,5 @@ create_fig_mpl('chromosome')
 create_fig_mpl('plasmid')
 create_fig_mpl('ambiguous')
 create_fig_mpl('no_label')
+
+print(f'nb samples {NB_SAMPLES} nb contigs {NB_CTG}')
