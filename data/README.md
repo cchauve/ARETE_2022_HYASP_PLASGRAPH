@@ -13,10 +13,10 @@ Each of the directories [c_freundii](c_freundii), [e_coli](e_coli) and
 of samples ID and ground truth labelling for short-reads contigs (of
 size >100bp) for a set of species-specific samples.
 
-For each species **S**,
-- the file '<S>/<S>_id.txt' contains the list of samples ID,
-- the directory '<S>/assembly_graphs/' contains the gzipped assembly graphs, one file '<SAMPLE_ID>.gfa.gz' per sample;
-- the directory '<S>/ground_truth/' contain the ground truth labelling files, one file '<SAMPLE_ID>_minimap_alignment_labelled_ambiguity_cutoff_1.csv' per sample.
+For each species 'SPECIES',
+- the file 'SPECIES/SPECIES_id.txt' contains the list of samples ID,
+- the directory 'SPECIES/assembly_graphs/' contains the gzipped assembly graphs, one file 'SAMPLE_ID.gfa.gz' per sample;
+- the directory 'SPECIES/ground_truth/' contain the ground truth labelling files, one file 'SAMPLE_ID_minimap_alignment_labelled_ambiguity_cutoff_1.csv' per sample.
 
 For a given sample, the ground truth labelling file contains, for each
 short-reads contig, the hybrid long/short-read contigs it maps to and
