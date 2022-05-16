@@ -3,7 +3,7 @@
 #SBATCH --mem=4G
 #SBATCH --account=def-chauvec
 
-ARETE_MAY22_HOME=/home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_MAY22/
+source ../../home.sh
 HYASP_ENV_HOME=${ARETE_MAY22_HOME}/hyasp_env/
 
 source ${HYASP_ENV_HOME}/bin/activate
