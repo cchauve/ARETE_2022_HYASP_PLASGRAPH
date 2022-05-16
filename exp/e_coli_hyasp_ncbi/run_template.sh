@@ -14,14 +14,17 @@ REF=${ARETE_MAY22_HOME}/exp/ncbi_database/ncbi_database_genes.fasta
 # Sample assembly graph
 GFA=${ARETE_MAY22_HOME}/data/e_coli/assembly_graphs/SAMPLE_ID_assembly.gfa
 gunzip ${GFA}.gz
+# Experiment directory
+EXP_DIR=${ARETE_MAY22_HOME}/exp/e_coli_hyasp_ncbi/
 # Output directory
-OUT=${ARETE_MAY22_HOME}/exp/e_coli_hyasp_ncbi/results/SAMPLE_ID
+OUT_DIR=${EXP_DIR}/results/SAMPLE_ID
 
-mkdir -p ${OUT}
-cd       ${OUT}
+mkdir -p ${OUT_DIR}
+cd       ${OUT_DIR}
 
 hyasp map    ${REF}        SAMPLE_ID_gcm.csv -g ${GFA}                  > SAMPLE_ID_log_map.txt
 hyasp filter ${REF}        SAMPLE_ID_gcm.csv SAMPLE_ID_filtered_gcm.csv > SAMPLE_ID_log_filter.txt
 hyasp find   ${GFA} ${REF} SAMPLE_ID_filtered_gcm.csv ./                > SAMPLE_ID_log_find.txt
+${ARETE_MAY22_HOME}/scripts/filter_questionable_plasmids.sh ${EXP_DIR} ${ARETE_MAY22_HOME}/data/e_coli/e_coli_id.txt
 
 gzip ${GFA}
