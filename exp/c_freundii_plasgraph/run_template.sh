@@ -6,7 +6,7 @@
 #SBATCH --account=def-chauvec
 
 # Experiments home directory
-ARETE_MAY22_HOME=/home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_MAY22/
+ARETE_MAY22_HOME=/home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_2022_HYASP_PLASGRAPH/
 
 # Virtual environment home directory
 PLASGRAPH_ENV_HOME=${ARETE_MAY22_HOME}/plasgraph_env
