@@ -37,3 +37,14 @@ The repo contains four files:
 - `SAMPLE_ID_filtered_gcm.csv` contains all considered hits of the sample contigs against the reference database;
 - `putative_plasmid_contigs.fasta` contains the original short-read contigs, with a header augmented by the plasmid bin they belong to and their position in this bin;
 - `putative_plasmids.fasta` contains the sequence defined by concatenating all contigs in each bin into a single sequence.
+
+## HyAsP evaluation
+
+For each species `SPECIES` (*E. coli* or *E. faecium*) the precision, recall and F1-score for each sample are recorded
+in the files `hyasp_eval/SPECIES_[precision,recall,F1].txt`, for the experiment with each of the two databases.  
+
+The figures suffixed by `dist.png` show the distribution for all theses statistics.
+
+The figures suffixed by `comp.png` show scatterplots of the statistic values with both databases.
+
+All these results can be reproduced by running `run_all.sh`.
