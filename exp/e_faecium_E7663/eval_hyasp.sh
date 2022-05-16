@@ -3,7 +3,7 @@
 # Experiments home directory
 source ../../home.sh
 EXP_DIR=${ARETE_MAY22_HOME}/exp/e_faecium_E7663/
-EVAL_DIR=${ARETE_MAY22_HOME}/tools/PlasEval/eval_scripts/
+EVAL_DIR=${ARETE_MAY22_HOME}/scripts/
 OUT_DIR=${EXP_DIR}/hyasp_eval/
 
 PRED_FILE_1=${EXP_DIR}/hyasp_output_1/contig_chains_putative.csv
