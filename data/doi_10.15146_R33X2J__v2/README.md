@@ -5,7 +5,7 @@
 This directory contains the list of GenBank accession numbers for one
 of the two plasmid databases used by HyAsP.
 
-This database is described in the paper <a href="https://doi.org/10.1128/MRA.01325-18"></a> (Microbiology Resource Announcements, 2019).
+This database is described in the paper <a href="https://doi.org/10.1128/MRA.01325-18">A Curated, Comprehensive Database of Plasmid Sequences</a> (Microbiology Resource Announcements, 2019).
 
 The data were downloaded on 2022-05-03 from <a href="https://datadryad.org/stash/dataset/doi:10.15146/R33X2J">Dryad: Plasmids database</a>.
 
