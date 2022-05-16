@@ -47,4 +47,14 @@ The figures suffixed by `dist.png` show the distribution for all theses statisti
 
 The figures suffixed by `comp.png` show scatterplots of the statistic values with both databases.
 
-All these results can be reproduced by running `run_all.sh`.
+All these results can be reproduced by running [hyasp_eval/run_all.sh](hyasp_eval/run_all.sh).
+
+## Running plASgraph
+
+The plASgraph experiment can be reproduced by running [c_freundii_plasgraph/run_all.sh](c_freundii_plasgraph/run_all.sh).
+
+For a given sample `SAMPLE_ID`, the results are available in the subdirectory `results/SAMPLE_ID`. It contains two files:
+- `SAMPLE_ID__class.csv` contains, for each contig, both its plasmid and chromosome scores and the class the contig is assigned to.
+- `SAMPLE_ID__class_graph.png` contains a picture of the assembly graph with contigs colored according to their predicted class.
+
+The scatterplot figures of the contigs scores are available in the files `c_freundii_plasgraph_accuracy_[ambiguous,chromosome,no_label,plasmid].png` and can be reproduced by running [c_freundii_plasgraph/run_eval.sh](c_freundii_plasgraph/run_eval.sh).
