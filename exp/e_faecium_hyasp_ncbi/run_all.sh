@@ -1,6 +1,7 @@
 #!/bin/bash
 
-SAMPLES=`cat /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_MAY22/data/e_faecium/e_faecium_id.txt`
+source ../../home.sh
+SAMPLES=`cat ${ARETE_MAY22_HOME}/data/e_faecium/e_faecium_id.txt`
 
 for SAMPLE in ${SAMPLES}
 do
