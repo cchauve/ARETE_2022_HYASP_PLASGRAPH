@@ -27,6 +27,7 @@ cd       ${OUT_DIR}
 hyasp map    ${REF}        SAMPLE_ID_gcm.csv -g ${GFA}                  > SAMPLE_ID_log_map.txt
 hyasp filter ${REF}        SAMPLE_ID_gcm.csv SAMPLE_ID_filtered_gcm.csv > SAMPLE_ID_log_filter.txt
 hyasp find   ${GFA} ${REF} SAMPLE_ID_filtered_gcm.csv ./                > SAMPLE_ID_log_find.txt
-${ARETE_MAY22_HOME}/scripts/filter_questionable_plasmids.sh ${EXP_DIR} ${ARETE_MAY22_HOME}/data/e_coli/e_coli_id.txt
+SCRIPTS_DIR=${ARETE_MAY22_HOME}/scripts
+python ${SCRIPTS_DIR}/filter_hyasp_questionable_plasmids.py ${OUT_DIR}
 
 rm ${GFA}
