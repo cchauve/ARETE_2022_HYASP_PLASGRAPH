@@ -4,11 +4,10 @@
 #SBATCH --account=def-chauvec
 
 source ../home.sh
-cd ${ARETE_MAY22_HOME}
 
 module load python/3
-python3 -m venv --system-site-packages ./plasgraph_env
-source ./plasgraph_env/bin/activate
+python3 -m venv --system-site-packages ${ARETE_MAY22_HOME}/plasgraph_env
+source ${ARETE_MAY22_HOME}/plasgraph_env/bin/activate
 
 pip install networkx==2.6.3
 pip install pandas==1.4.0
@@ -19,8 +18,8 @@ pip install matplotlib==3.5.1
 pip install --no-index tensorflow==2.8
 pip install spektral==1.0.8
 
-mkdir -p tools
-cd tools/
+mkdir -p ${ARETE_MAY22_HOME}/tools
+cd ${ARETE_MAY22_HOME}/tools/
 git clone https://github.com/cchauve/plASgraph.git
 
 deactivate

@@ -4,18 +4,17 @@
 #SBATCH --account=def-chauvec
 
 source ../home.sh
-cd ${ARETE_MAY22_HOME}
 
 module load python/3
-python3 -m venv --system-site-packages ./hyasp_env
-source ./hyasp_env/bin/activate
+python3 -m venv --system-site-packages ${ARETE_MAY22_HOME}/hyasp_env
+source ${ARETE_MAY22_HOME}/hyasp_env/bin/activate
 
 pip install numpy
 pip install pandas
 pip install biopython
 
-mkdir -p tools
-cd tools/
+mkdir -p ${ARETE_MAY22_HOME}/tools
+cd ${ARETE_MAY22_HOME}/tools/
 git clone https://github.com/cchauve/hyasp.git
 cd hyasp
 python setup.py sdist
