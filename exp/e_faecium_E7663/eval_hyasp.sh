@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH --account=def-chauvec
 
 # Experiments home directory
 source ../../home.sh
