@@ -16,7 +16,7 @@ INPUT=${EXP_DIR}/E7663.gfa
 gunzip ${INPUT}.gz
 SCRIPTS_DIR=${HYASP_ENV_HOME}/scripts
 
-# Mapping contigs against the reference plasmid genes database
+# Using a first reference database
 REF1=${ARETE_MAY22_HOME}/exp/doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_genes.fasta
 hyasp map    ${REF1}  -g ${INPUT} ${EXP_DIR}/hyasp_output_1/E7663_1_gcm.csv 
 hyasp filter ${REF1}  ${EXP_DIR}/hyasp_output_1/E7663_1_gcm.csv ${EXP_DIR}/hyasp_output_1/E7663_1_filtered_gcm.csv
