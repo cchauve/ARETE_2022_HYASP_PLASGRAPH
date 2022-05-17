@@ -9,6 +9,8 @@ module load python/3
 python3 -m venv --system-site-packages ${ARETE_MAY22_HOME}/hyasp_env
 source ${ARETE_MAY22_HOME}/hyasp_env/bin/activate
 
+module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
+
 pip install numpy
 pip install pandas
 pip install biopython
