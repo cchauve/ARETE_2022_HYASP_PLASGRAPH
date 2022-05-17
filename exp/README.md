@@ -5,7 +5,7 @@
 
 ## Overview
 This repo contains all the experiments and their results:
-- [doi_10.15146_R33X2J__v21](doi_10.15146_R33X2J__v21): building the HyAsP plasmid reference database
+- [doi_10.15146_R33X2J__v2](doi_10.15146_R33X2J__v2): building the HyAsP plasmid reference database
   based on the data described in [../data/doi_10.15146_R33X2J__v2/](../data/doi_10.15146_R33X2J__v2/).
 - [ncbi_database](ncbi_database): building the HyAsP plasmid reference database based on
   the HyAsP list of plasmids [ncbi_database/plasmids.csv](ncbi_database/plasmids.csv)
