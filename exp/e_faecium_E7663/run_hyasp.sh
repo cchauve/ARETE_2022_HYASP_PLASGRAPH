@@ -14,7 +14,7 @@ EXP_DIR=${ARETE_MAY22_HOME}/exp/e_faecium_E7663/
 mkdir -p ${EXP_DIR}/hyasp_output_1 ${EXP_DIR}/hyasp_output_2
 INPUT=${EXP_DIR}/E7663.gfa
 gunzip ${INPUT}.gz
-SCRIPTS_DIR=${HYASP_ENV_HOME}/scripts
+SCRIPTS_DIR=${HYASP_MAY22_HOME}/scripts
 
 rm ${EXP_DIR}/hyasp_output_1/*
 rm ${EXP_DIR}/hyasp_output_2/*
