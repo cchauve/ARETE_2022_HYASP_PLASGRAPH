@@ -17,6 +17,7 @@ pip install 'biopython>=1.79'
 pip install 'matplotlib>=3.5.1'
 pip install --no-index 'tensorflow>=2.8'
 pip install 'spektral>=1.0.8'
+pip install 'scipy>=1.8.0'
 
 mkdir -p ${ARETE_MAY22_HOME}/tools
 cd ${ARETE_MAY22_HOME}/tools/
