@@ -16,6 +16,9 @@ INPUT=${EXP_DIR}/E7663.gfa
 gunzip ${INPUT}.gz
 SCRIPTS_DIR=${HYASP_ENV_HOME}/scripts
 
+rm ${EXP_DIR}/hyasp_output_1/*
+rm ${EXP_DIR}/hyasp_output_2/*
+
 # Using a first reference database
 REF1=${ARETE_MAY22_HOME}/exp/doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_genes.fasta
 hyasp map    ${REF1}  -g ${INPUT} ${EXP_DIR}/hyasp_output_1/E7663_1_gcm.csv 
