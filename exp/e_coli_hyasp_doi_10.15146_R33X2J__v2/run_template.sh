@@ -15,7 +15,7 @@ REF=${ARETE_MAY22_HOME}/exp/doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_gene
 mkdir -p tmp
 cp ${ARETE_MAY22_HOME}/data/e_coli/assembly_graphs/SAMPLE_ID.gfa.gz tmp/
 gunzip tmp/SAMPLE_ID.gfa.gz
-GFA=tmp/SAMPLE_ID_assembly.gfa
+GFA=tmp/SAMPLE_ID.gfa
 # Experiment directory
 EXP_DIR=${ARETE_MAY22_HOME}/exp/e_coli_hyasp_doi_10.15146_R33X2J__v2/
 # Output directory

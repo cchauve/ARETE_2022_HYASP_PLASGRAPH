@@ -15,7 +15,7 @@ REF=${ARETE_MAY22_HOME}/exp/ncbi_database/ncbi_database_genes.fasta
 mkdir -p tmp
 cp ${ARETE_MAY22_HOME}/data/e_faecium/assembly_graphs/SAMPLE_ID.gfa.gz tmp/
 gunzip tmp/SAMPLE_ID.gfa.gz
-GFA=tmp/SAMPLE_ID_assembly.gfa
+GFA=tmp/SAMPLE_ID.gfa
 # Experiment directory
 EXP_DIR=${ARETE_MAY22_HOME}/exp/e_faecium_hyasp_ncbi/
 # Output directory
