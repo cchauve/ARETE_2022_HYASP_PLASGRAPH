@@ -129,24 +129,23 @@ if __name__ == "__main__":
 	n_rows = len(pred_plasmids)
 
 	covered_len_df = pd.DataFrame(np.zeros(shape=(n_rows,n_cols)),columns=true_plasmids,index=pred_plasmids)
-	pred_lens = {}
+	pred_lens = {}			
 
-	for p_id in pred_plasmids:
-		pred_lens[p_id] = 0
-		for c_id in plasmid_dict[p_id]:
-                        # Handling the case of short contigs absent from ground truth file
+        for p_id in pred_plasmids:
+                pred_lens[p_id] = 0
+                for c_id in plasmid_dict[p_id]:
                         if c_id in contig_dict.keys():
-			        t_id = contig_dict[c_id]['map'][0]
-			        c_len = contig_dict[c_id]['length']
-			        pred_lens[p_id] += c_len
-			        if t_id == None:
-				        if ambiguous == 1:
-					        covered_len_df.ix[p_id,'ambiguous'] += c_len
-			        else:
-				        label = truth_dict[t_id]['label'][0]
-				        if label == 'plasmid':
-					        covered_len_df.ix[p_id,t_id] += c_len			
-
+                                t_id = contig_dict[c_id]['map'][0]
+                                c_len = contig_dict[c_id]['length']
+                                pred_lens[p_id] += c_len
+                                if t_id == None:
+                                        if ambiguous == 1:
+                                                covered_len_df.ix[p_id,'ambiguous'] += c_len
+                                else:
+                                        label = truth_dict[t_id]['label'][0]
+                                        if label == 'plasmid':
+                                                covered_len_df.ix[p_id,t_id] += c_len
+                
 	#Precision df
 	prec_df = covered_len_df.copy()
 	for p_id in pred_plasmids:
@@ -154,7 +153,8 @@ if __name__ == "__main__":
 
 	#Recall df
 	rec_df = covered_len_df.copy()
-	if ambiguous == 1:
+
+        if ambiguous == 1:
 		plasmid_cols = covered_len_df[true_plasmids[:-1]]
 		rec_df = plasmid_cols.copy()	
 
