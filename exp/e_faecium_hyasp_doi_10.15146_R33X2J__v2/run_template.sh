@@ -14,7 +14,7 @@ EXP_DIR=${ARETE_MAY22_HOME}/exp/e_faecium_hyasp_doi_10.15146_R33X2J__v2/
 # Reference database
 REF=${ARETE_MAY22_HOME}/exp/doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_genes.fasta
 # Sample assembly graph
-mkdir -p tmp
+mkdir -p ${EXP_DIR}/tmp
 cp ${ARETE_MAY22_HOME}/data/e_faecium/assembly_graphs/SAMPLE_ID.gfa.gz ${EXP_DIR}/tmp/
 gunzip ${EXP_DIR}/tmp/SAMPLE_ID.gfa.gz
 GFA=${EXP_DIR}/tmp/SAMPLE_ID.gfa
