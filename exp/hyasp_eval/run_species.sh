@@ -7,7 +7,7 @@ ID_LIST=`cat ${ARETE_MAY22_HOME}/data/${SPECIES}/${SPECIES}_id.txt`
 EXP_DIR_1=${ARETE_MAY22_HOME}/exp/${SPECIES}_hyasp_doi_10.15146_R33X2J__v2/
 EXP_DIR_2=${ARETE_MAY22_HOME}/exp/${SPECIES}_hyasp_ncbi/
 
-EVAL_DIR=${ARETE_MAY22_HOME}/scripts/
+SCRIPTS_dir=${ARETE_MAY22_HOME}/scripts/
 OUT_DIR=${ARETE_MAY22_HOME}/exp/hyasp_eval/${SPECIES}
 mkdir -p ${OUT_DIR}
 
@@ -17,7 +17,7 @@ do
     PRED_FILE_2=${EXP_DIR_2}/results/${ID}/contig_chains_putative.csv
     GROUND_TRUTH_FILE=${ARETE_MAY22_HOME}/data/${SPECIES}/ground_truth/${ID}_minimap_alignment_labelled_ambiguity_cutoff_1.csv
 
-    cd ${EVAL_DIR}
+    cd ${SCRIPTS_dir}
     python evaluate_sample.py --pred ${PRED_FILE_1} --map ${GROUND_TRUTH_FILE} --out ${OUT_DIR} --res ${ID}_doi_10.15146_R33X2J__v2.txt --amb 1 --ori 1
     python evaluate_sample.py --pred ${PRED_FILE_2} --map ${GROUND_TRUTH_FILE} --out ${OUT_DIR} --res ${ID}_ncbi.txt --amb 1 --ori 1
 done
@@ -29,6 +29,6 @@ grep recall ${SPECIES}/* > ${SPECIES}_recall.txt
 grep f1_score ${SPECIES}/* > ${SPECIES}_F1.txt
 
 module load python/3
-python ${EVAL_DIR}/plot_statistics.py ${SPECIES} precision
-python ${EVAL_DIR}/plot_statistics.py ${SPECIES} recall
-python ${EVAL_DIR}/plot_statistics.py ${SPECIES} F1
+python ${SCRIPTS_dir}/plot_statistics.py ${SPECIES} precision
+python ${SCRIPTS_dir}/plot_statistics.py ${SPECIES} recall
+python ${SCRIPTS_dir}/plot_statistics.py ${SPECIES} F1
